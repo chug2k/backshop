@@ -8,6 +8,19 @@ Bundler.require(:default, Rails.env)
 
 module Backshop
   class Application < Rails::Application
+
+    Jbuilder.key_format camelize: :lower
+
+    Paperclip.options[:command_path] = "/usr/local/bin/"
+    config.paperclip_defaults = {
+        :storage => :s3,
+        :s3_credentials => {
+            :bucket => 'stinkyshop',
+            :access_key_id => 'AKIAJTL2XNULP44DJJ4A',
+            :secret_access_key => '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'
+        }
+    }
+
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.

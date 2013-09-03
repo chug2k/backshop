@@ -1,0 +1,16 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Player:</strong>
+  <%= @submission.player_id %>
+</p>
+
+<p>
+  <strong>Topic:</strong>
+  <%= @submission.topic_id %>
+</p>
+
+<img src=<%=@submission.image%>/>
+
+<%= link_to 'Edit', edit_submission_path(@submission) %> |
+<%= link_to 'Back', submissions_path %>
