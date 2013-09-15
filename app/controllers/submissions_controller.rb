@@ -26,6 +26,8 @@ class SubmissionsController < ApplicationController
   # POST /submissions
   # POST /submissions.json
   def create
+    p submission_params
+    p "wtf"
     @submission = Submission.new(submission_params)
 
     respond_to do |format|
@@ -71,6 +73,7 @@ class SubmissionsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def submission_params
-      params.permit(:image, :topic_id, :player_id)
+      #params
+      params.require(:submission).permit(:topic_id, :player_id, :image)
     end
 end

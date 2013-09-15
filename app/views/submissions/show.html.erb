@@ -1,13 +1,13 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <strong>Player:</strong>
-  <%= @submission.player_id %>
+  <strong>Submitting Player:</strong>
+  <%= @submission.player.name %>
 </p>
 
 <p>
   <strong>Topic:</strong>
-  <%= @submission.topic_id %>
+  <%= @submission.topic.name %>
 </p>
 
 <img src=<%=@submission.image%>/>
