@@ -40,6 +40,7 @@ ActiveRecord::Schema.define(version: 20130915205526) do
   create_table "votes", force: true do |t|
     t.integer  "player_id"
     t.integer  "submission_id"
+    t.boolean  "positive"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

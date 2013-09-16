@@ -1,12 +1,15 @@
 .row
   .submission-image.col-xs-12
     .word-label
-      This is the word
-    %img.img-responsive{src: 'http://placekitten.com/300/300'}
+      = @submission.topic.name
+    %img.img-responsive{src: @submission.image}
 .row
-  .action-btn.col-xs-6
-    %a#yes{href: '#', 'data-role' => 'button', 'data-icon' => 'check'}
-      great
-  .action-btn.col-xs-6
-    %a#no{href: '#', 'data-role' => 'button', 'data-icon' => 'delete'}
-      stinky
+  = form_tag votes_path(@vote) do
+    = hidden_field_tag 'fbuid', @player.fbuid
+    = hidden_field_tag 'vote[submission_id]', @submission.id
+    .action-btn.col-xs-6
+      %button#yes{type: 'submit', 'data-role' => 'button', 'data-icon' => 'check', name: 'vote[positive]', value: 'true'}
+        Great
+    .action-btn.col-xs-6
+      %button#no{type: 'submit', 'data-role' => 'button', 'data-icon' => 'delete', name: 'vote[positive]', value: 'false'}
+        Stinky

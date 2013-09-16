@@ -26,8 +26,6 @@ class SubmissionsController < ApplicationController
   # POST /submissions
   # POST /submissions.json
   def create
-    p submission_params
-    p "wtf"
     @submission = Submission.new(submission_params)
 
     respond_to do |format|
