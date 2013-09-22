@@ -28,7 +28,7 @@
     <file path="/votes_controller.rb" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1379290196031" ignored="false" />
     <file path="/application.html.haml" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1379279554593" ignored="false" />
     <file path="/application.html.erb" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1379280218968" ignored="false" />
-    <file path="/votes.css.scss" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1379282195135" ignored="false" />
+    <file path="/votes.css.scss" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1379878498166" ignored="false" />
     <file path="/20130902231700_create_players.rb" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1379282480427" ignored="false" />
     <file path="/players_controller.rb" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1379282530823" ignored="false" />
     <file path="/20130915205526_create_votes.rb" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1379289516329" ignored="false" />
@@ -65,16 +65,16 @@
       <file leaf-file-name="new.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/votes/new.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="20" selection-start="71" selection-end="71" vertical-scroll-proportion="-1.875">
+            <state line="2" column="21" selection-start="39" selection-end="39" vertical-scroll-proportion="-1.25">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="votes.css.scss" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="votes.css.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/votes.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="14" selection-start="119" selection-end="119" vertical-scroll-proportion="0.0">
+            <state line="13" column="17" selection-start="246" selection-end="246" vertical-scroll-proportion="0.47330096">
               <folding />
             </state>
           </provider>
@@ -107,10 +107,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="votes_controller.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="votes_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/votes_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="84" selection-start="502" selection-end="502" vertical-scroll-proportion="0.3316062">
+            <state line="20" column="84" selection-start="502" selection-end="502" vertical-scroll-proportion="-11.538462">
               <folding />
             </state>
           </provider>
@@ -146,7 +146,6 @@
       <list>
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/votes.css.scss" />
         <option value="$PROJECT_DIR$/db/migrate/20130902231700_create_players.rb" />
         <option value="$PROJECT_DIR$/app/views/players/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/players_controller.rb" />
@@ -155,11 +154,12 @@
         <option value="$PROJECT_DIR$/app/views/submissions/show.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/submissions_controller.rb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css.scss" />
-        <option value="$PROJECT_DIR$/app/views/votes/new.html.haml" />
         <option value="$PROJECT_DIR$/db/migrate/20130915235330_add_positive_to_vote.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20130915205526_create_votes.rb" />
         <option value="$PROJECT_DIR$/app/models/vote.rb" />
         <option value="$PROJECT_DIR$/app/controllers/votes_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/votes/new.html.haml" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/votes.css.scss" />
       </list>
     </option>
   </component>
@@ -854,30 +854,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="79" selection-start="82" selection-end="82" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/votes.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="14" selection-start="119" selection-end="119" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/submissions/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="21" selection-start="59" selection-end="59" vertical-scroll-proportion="-1.875">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/votes/new.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="20" selection-start="71" selection-end="71" vertical-scroll-proportion="-1.875">
           <folding />
         </state>
       </provider>
@@ -905,7 +884,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/votes_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="84" selection-start="502" selection-end="502" vertical-scroll-proportion="0.3316062">
+        <state line="20" column="84" selection-start="502" selection-end="502" vertical-scroll-proportion="-11.538462">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/votes/new.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="21" selection-start="39" selection-end="39" vertical-scroll-proportion="-1.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="79" selection-start="82" selection-end="82" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/votes.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="17" selection-start="246" selection-end="246" vertical-scroll-proportion="0.47330096">
           <folding />
         </state>
       </provider>

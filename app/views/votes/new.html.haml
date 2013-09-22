@@ -1,8 +1,9 @@
 .row
-  .submission-image.col-xs-12
-    .word-label
-      = @submission.topic.name
-    %img.img-responsive{src: @submission.image}
+  .col-xs-12
+    .submission-image
+      .word-label
+        = @submission.topic.name
+      %img.img-responsive{src: @submission.image}
 .row
   = form_tag votes_path(@vote) do
     = hidden_field_tag 'fbuid', @player.fbuid
