@@ -71,7 +71,11 @@ class SubmissionsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def submission_params
-      #params
-      params.require(:submission).permit(:topic_id, :player_id, :image)
+      new_params = params
+      if !params.blank? && !params.has_key?('submission')
+        params_copy = params.dup
+        new_params = ActionController::Parameters.new({submission: params_copy.slice('topic_id', 'player_id', 'image')})
+      end
+      new_params.require(:submission).permit(:topic_id, :player_id, :image)
     end
 end
