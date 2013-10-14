@@ -6,7 +6,7 @@ class SubmissionsController < ApplicationController
   # GET /submissions
   # GET /submissions.json
   def index
-    @submissions = Submission.all
+    @submissions = Submission.includes(:topic)
   end
 
   # GET /submissions/1
@@ -31,7 +31,7 @@ class SubmissionsController < ApplicationController
     respond_to do |format|
       if @submission.save
         format.html { redirect_to @submission, notice: 'Submission was successfully created.' }
-        format.json { render action: 'show', status: :created, location: @submission }
+        format.json { render json: @submission }
       else
         format.html { render action: 'new' }
         format.json { render json: @submission.errors, status: :unprocessable_entity }
@@ -73,9 +73,13 @@ class SubmissionsController < ApplicationController
     def submission_params
       new_params = params
       if !params.blank? && !params.has_key?('submission')
+        if params[:player_id].blank? && params[:fbuid].present?
+          params[:player_id] = Player.find_or_create_by(fbuid: params[:fbuid]).id
+        end
         params_copy = params.dup
-        new_params = ActionController::Parameters.new({submission: params_copy.slice('topic_id', 'player_id', 'image')})
+        new_params = ActionController::Parameters.new(
+            {submission: params_copy.slice('topic_id', 'player_id', 'image')})
       end
-      new_params.require(:submission).permit(:topic_id, :player_id, :image)
+      new_params.require(:submission).permit(:topic_id, :player_id, :fbuid, :image)
     end
 end

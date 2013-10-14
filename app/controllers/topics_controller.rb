@@ -26,6 +26,10 @@ class TopicsController < ApplicationController
     player = Player.find_or_create_by(fbuid: params[:fbuid])
     topic = Topic.unseen_by_player(player).order('RANDOM()').first
 
+    if topic.blank?
+      topic = Topic.order('RANDOM()').first
+    end
+
     render json: topic
   end
 
