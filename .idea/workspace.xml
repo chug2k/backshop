@@ -51,7 +51,7 @@
     <file path="$PROJECT_DIR$/../../../../Bloc/bloccit/app/views/comments/_form.html.erb" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1381464538257" ignored="false" />
     <file path="/index.html.erb" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1381704449800" ignored="false" />
     <file path="/topics_controller.rb" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1381709155141" ignored="false" />
-    <file path="/topic.rb" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1381709031206" ignored="false" />
+    <file path="/topic.rb" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1381710920390" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,10 +98,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="topics_controller.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="topics_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/topics_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="22" selection-start="539" selection-end="539" vertical-scroll-proportion="0.57746476">
+            <state line="26" column="27" selection-start="476" selection-end="476" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -143,10 +143,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="topic.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="topic.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/topic.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="25" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0">
+            <state line="8" column="7" selection-start="250" selection-end="250" vertical-scroll-proportion="0.18779343">
               <folding />
             </state>
           </provider>
@@ -185,8 +185,8 @@
         <option value="$PROJECT_DIR$/app/models/player.rb" />
         <option value="$PROJECT_DIR$/db/seeds.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/models/topic.rb" />
         <option value="$PROJECT_DIR$/app/controllers/topics_controller.rb" />
+        <option value="$PROJECT_DIR$/app/models/topic.rb" />
       </list>
     </option>
   </component>
@@ -931,16 +931,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/topic.rb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/topics_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="25" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0">
+        <state line="26" column="27" selection-start="476" selection-end="476" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/topics_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/models/topic.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="22" selection-start="539" selection-end="539" vertical-scroll-proportion="0.57746476">
+        <state line="8" column="7" selection-start="250" selection-end="250" vertical-scroll-proportion="0.18779343">
           <folding />
         </state>
       </provider>
