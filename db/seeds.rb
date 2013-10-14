@@ -5,3 +5,16 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+test_words = %w(
+  absurd
+  beautiful
+  cute
+  dreary
+  egotistical
+  failure
+  gregarious
+  haggard
+)
+
+test_words.each {|t| Topic.create(name: t)}

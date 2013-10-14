@@ -1,5 +1,9 @@
 Backshop::Application.routes.draw do
-  resources :topics
+  resources :topics do
+    collection do
+      get 'next'
+    end
+  end
 
   resources :submissions
 

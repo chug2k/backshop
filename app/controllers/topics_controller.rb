@@ -21,6 +21,14 @@ class TopicsController < ApplicationController
   def edit
   end
 
+  # GET /topics/next
+  def next
+    player = Player.find_or_create_by(fbuid: params[:fbuid])
+    topic = Topic.unseen_by_player(player).order('RANDOM()').first
+
+    render json: topic
+  end
+
   # POST /topics
   # POST /topics.json
   def create
