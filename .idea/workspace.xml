@@ -34,7 +34,7 @@
     <file path="/20130915205526_create_votes.rb" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1379289516329" ignored="false" />
     <file path="/application.css.scss" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1379286541785" ignored="false" />
     <file path="/20130915235330_add_positive_to_vote.rb" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1379289338558" ignored="false" />
-    <file path="$PROJECT_DIR$/../../android/.metadata/.plugins/org.eclipse.debug.ui/launchConfigurationHistory.xml" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1381464538257" ignored="false" />
+    <file path="$PROJECT_DIR$/../../android/.metadata/.plugins/org.eclipse.debug.ui/launchConfigurationHistory.xml" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1382309356605" ignored="false" />
     <file path="/player.rb" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1382307842488" ignored="false" />
     <file path="$PROJECT_DIR$/../../../../Bloc/bloccit/db/seeds.rb" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1381464538257" ignored="false" />
     <file path="$PROJECT_DIR$/../../../../Bloc/bloccit/db/schema.rb" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1381464538257" ignored="false" />
@@ -56,6 +56,7 @@
     <file path="/sessions_controller.rb" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1382309055094" ignored="false" />
     <file path="/application_controller.rb" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1382309267848" ignored="false" />
     <file path="/20131020222529_create_tokens_table.rb" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1382308017955" ignored="false" />
+    <file path="/token.rb" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1382309384495" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,19 +121,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application_controller.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="application_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="42" selection-start="202" selection-end="202" vertical-scroll-proportion="0.07042254">
+            <state line="3" column="42" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
+      <file leaf-file-name="token.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/models/token.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="14" selection-start="1491" selection-end="1491" vertical-scroll-proportion="0.0">
+            <state line="2" column="2" selection-start="54" selection-end="54" vertical-scroll-proportion="0.04694836">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vote.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/vote.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="189" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -142,15 +152,6 @@
         <entry file="file://$PROJECT_DIR$/app/controllers/topics_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="28" column="0" selection-start="557" selection-end="557" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="player.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/player.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="46" selection-start="237" selection-end="237" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -175,7 +176,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/submissions/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/app/models/submission.rb" />
@@ -191,6 +191,7 @@
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/controllers/sessions_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
+        <option value="$PROJECT_DIR$/app/models/token.rb" />
       </list>
     </option>
   </component>
@@ -836,20 +837,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/votes.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="22" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="95" selection-start="421" selection-end="421" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="57" selection-start="602" selection-end="602" vertical-scroll-proportion="-12.5">
@@ -943,7 +930,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="42" selection-start="202" selection-end="202" vertical-scroll-proportion="0.07042254">
+        <state line="3" column="42" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/vote.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="189" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/token.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="2" selection-start="54" selection-end="54" vertical-scroll-proportion="0.04694836">
           <folding />
         </state>
       </provider>
