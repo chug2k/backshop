@@ -2,7 +2,7 @@ class SessionsController < ApplicationController
   def create
     return if @current_player.present?
 
-    token = params[:fb_token]
+    token = params[:token]
     fb_user = FbGraph::User.me(token).fetch
     fbuid = fb_user.raw_attributes[:id]
     player = Player.find_by_fbuid(fbuid) || Player.initialize_from_facebook(fb_user)
