@@ -6,4 +6,12 @@ class Submission < ActiveRecord::Base
 
   validates_presence_of :topic, :player, :image
 
+  def upvotes
+    self.votes.where(positive: true)
+  end
+
+  def downvotes
+    self.votes.where(positive: false)
+  end
+
 end

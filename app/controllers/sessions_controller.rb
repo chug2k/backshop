@@ -11,8 +11,7 @@ class SessionsController < ApplicationController
     # TODO(Charles): Maybe throw next_word in here.
     respond_to do |format|
       format.json {
-          render json: {points: 25, name: @current_player.name}
-
+          render json: {score: @current_player.score, name: @current_player.name}
       }
     end
   end

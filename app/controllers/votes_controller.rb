@@ -20,6 +20,10 @@ class VotesController < ApplicationController
     if @submission.nil?
       render text: 'dude you judged everything already good job go submit some shiot'
     end
+    if params[:prev_vote].present?
+      @prev_vote = Vote.find(params[:prev_vote])
+      @prev_submission = @prev_vote.submission
+    end
   end
 
   # GET /votes/1/edit
@@ -41,7 +45,7 @@ class VotesController < ApplicationController
 
     respond_to do |format|
       if @vote.save
-        format.html { redirect_to new_vote_path(fbuid: @vote.player.fbuid), notice: 'Vote was successfully created!' }
+        format.html { redirect_to new_vote_path(fbuid: @vote.player.fbuid, prev_vote: @vote)}
         format.json { render action: 'show', status: :created, location: @vote }
       else
         format.html { render action: 'new' }

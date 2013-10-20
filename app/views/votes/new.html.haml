@@ -1,3 +1,19 @@
+- if @prev_submission.present?
+  .row
+    .alert.alert-success
+      .col-xs-3
+        .player-image
+          = @prev_submission.player.try(:image)
+      .col-xs-9
+        .score-text
+          = @prev_submission.player.try(:name)
+          received
+          = @prev_vote.score
+          points for your
+          vote! You got 1 point for just for voting.
+
+
+
 .row
   .col-xs-12
     .submission-image
