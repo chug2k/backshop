@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130915205526) do
+ActiveRecord::Schema.define(version: 20131020222529) do
 
   create_table "players", force: true do |t|
     t.string   "name"
@@ -30,6 +30,13 @@ ActiveRecord::Schema.define(version: 20130915205526) do
     t.integer  "image_file_size"
     t.datetime "image_updated_at"
   end
+
+  create_table "tokens", force: true do |t|
+    t.string  "token"
+    t.integer "player_id"
+  end
+
+  add_index "tokens", ["token"], name: "index_tokens_on_token", using: :btree
 
   create_table "topics", force: true do |t|
     t.string   "name"
