@@ -27,6 +27,7 @@ class SubmissionsController < ApplicationController
   # POST /submissions.json
   def create
     @submission = Submission.new(submission_params)
+    @submission.player = @current_player
 
     respond_to do |format|
       if @submission.save
@@ -72,14 +73,12 @@ class SubmissionsController < ApplicationController
     # Never trust parameters from the scary internet, only allow the white list through.
     def submission_params
       new_params = params
+      # Jump through hoops because at the time of writing, we couldn't send nested params through loopj.
       if !params.blank? && !params.has_key?('submission')
-        if params[:player_id].blank? && params[:fbuid].present?
-          params[:player_id] = Player.find_or_create_by(fbuid: params[:fbuid]).id
-        end
         params_copy = params.dup
         new_params = ActionController::Parameters.new(
-            {submission: params_copy.slice('topic_id', 'player_id', 'image')})
+            {submission: params_copy.slice('topic_id', 'image')})
       end
-      new_params.require(:submission).permit(:topic_id, :player_id, :fbuid, :image)
+      new_params.require(:submission).permit(:topic_id, :image)
     end
 end
