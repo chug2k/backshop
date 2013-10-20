@@ -53,7 +53,7 @@
     <file path="/topics_controller.rb" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1382310022228" ignored="false" />
     <file path="/topic.rb" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1381710920390" ignored="false" />
     <file path="/StinkyDaVinciActivity.java" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1382302687623" ignored="false" />
-    <file path="/sessions_controller.rb" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1382309582148" ignored="false" />
+    <file path="/sessions_controller.rb" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1382310315230" ignored="false" />
     <file path="/application_controller.rb" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1382309267848" ignored="false" />
     <file path="/20131020222529_create_tokens_table.rb" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1382308017955" ignored="false" />
     <file path="/token.rb" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1382309384495" ignored="false" />
@@ -94,10 +94,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sessions_controller.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="sessions_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/sessions_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="25" selection-start="489" selection-end="489" vertical-scroll-proportion="0.0">
+            <state line="13" column="62" selection-start="515" selection-end="515" vertical-scroll-proportion="0.47330096">
               <folding />
             </state>
           </provider>
@@ -148,10 +148,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="topics_controller.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="topics_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/topics_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="33" selection-start="1505" selection-end="1505" vertical-scroll-proportion="0.6554404">
+            <state line="4" column="32" selection-start="152" selection-end="152" vertical-scroll-proportion="-2.3076923">
               <folding />
             </state>
           </provider>
@@ -189,9 +189,9 @@
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/app/models/token.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/sessions_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/submissions_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/topics_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/sessions_controller.rb" />
       </list>
     </option>
   </component>
@@ -914,20 +914,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="42" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/sessions_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="25" selection-start="489" selection-end="489" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/submissions_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="75" column="105" selection-start="2092" selection-end="2092" vertical-scroll-proportion="0.0">
@@ -944,7 +930,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/topics_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="33" selection-start="1505" selection-end="1505" vertical-scroll-proportion="0.6554404">
+        <state line="4" column="32" selection-start="152" selection-end="152" vertical-scroll-proportion="-2.3076923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="42" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/sessions_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="62" selection-start="515" selection-end="515" vertical-scroll-proportion="0.47330096">
           <folding />
         </state>
       </provider>
