@@ -35,7 +35,7 @@
     <file path="/application.css.scss" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1379286541785" ignored="false" />
     <file path="/20130915235330_add_positive_to_vote.rb" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1379289338558" ignored="false" />
     <file path="$PROJECT_DIR$/../../android/.metadata/.plugins/org.eclipse.debug.ui/launchConfigurationHistory.xml" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1382311952579" ignored="false" />
-    <file path="/player.rb" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1382313100251" ignored="false" />
+    <file path="/player.rb" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1382314066745" ignored="false" />
     <file path="$PROJECT_DIR$/../../../../Bloc/bloccit/db/seeds.rb" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1381464538257" ignored="false" />
     <file path="$PROJECT_DIR$/../../../../Bloc/bloccit/db/schema.rb" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1381464538257" ignored="false" />
     <file path="$PROJECT_DIR$/../../../../Bloc/bloccit/app/controllers/comments_controller.rb" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1381464538257" ignored="false" />
@@ -112,19 +112,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="player.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="player.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/player.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="26" selection-start="324" selection-end="324" vertical-scroll-proportion="0.0">
+            <state line="21" column="60" selection-start="629" selection-end="629" vertical-scroll-proportion="0.5631068">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="submission.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="submission.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/submission.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="17" selection-start="96" selection-end="96" vertical-scroll-proportion="0.1092233">
+            <state line="3" column="17" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -187,11 +187,11 @@
         <option value="$PROJECT_DIR$/app/controllers/submissions_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/topics_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/sessions_controller.rb" />
-        <option value="$PROJECT_DIR$/app/models/player.rb" />
         <option value="$PROJECT_DIR$/app/views/votes/new.html.haml" />
         <option value="$PROJECT_DIR$/app/models/vote.rb" />
         <option value="$PROJECT_DIR$/app/controllers/votes_controller.rb" />
         <option value="$PROJECT_DIR$/app/models/submission.rb" />
+        <option value="$PROJECT_DIR$/app/models/player.rb" />
       </list>
     </option>
   </component>
@@ -907,13 +907,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/player.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="26" selection-start="324" selection-end="324" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/sessions_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="81" selection-start="534" selection-end="534" vertical-scroll-proportion="0.0">
@@ -944,7 +937,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/submission.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="17" selection-start="96" selection-end="96" vertical-scroll-proportion="0.1092233">
+        <state line="3" column="17" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/player.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="60" selection-start="629" selection-end="629" vertical-scroll-proportion="0.5631068">
           <folding />
         </state>
       </provider>
