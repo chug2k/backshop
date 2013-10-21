@@ -24,4 +24,8 @@ class Player < ActiveRecord::Base
     submission_points + cast_vote_points + vote_points
   end
 
+
+  def facebook_image
+    "http://graph.facebook.com/#{self.fbuid}/picture"
+  end
 end
