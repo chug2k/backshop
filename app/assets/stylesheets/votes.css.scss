@@ -15,5 +15,12 @@
 }
 
 .score-text {
-  line-height: 50px;
+  padding-top: 10px;
+}
+.points-text {
+  text-align: right;
+  img {
+    width: 18px;
+    height: 18px;
+  }
 }

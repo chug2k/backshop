@@ -1,3 +1,9 @@
+.row
+  .col-xs-12
+    .points-text
+      %h3
+        = image_tag('http://i5.photobucket.com/albums/y160/HostileFire/Blog/super_mario_8-bit_star.jpg')
+        = @player.score
 - if @prev_submission.present?
   .row.alert.alert-success
     .col-xs-3
