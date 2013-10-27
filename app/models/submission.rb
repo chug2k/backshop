@@ -6,6 +6,8 @@ class Submission < ActiveRecord::Base
       styles: { thumb: '100x100>', large: '500x500' }
 
   validates_presence_of :topic, :player, :image
+  default_scope order('created_at DESC')
+
 
   def upvotes
     self.votes.where(positive: true)
