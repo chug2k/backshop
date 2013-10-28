@@ -24,11 +24,11 @@
     <file path="$PROJECT_DIR$/../../../../Bloc/first-app/config/database.yml" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1378185516923" ignored="false" />
     <file path="/20130902231837_create_submissions.rb" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1379278650439" ignored="false" />
     <file path="/vote.rb" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1382313358670" ignored="false" />
-    <file path="/new.html.haml" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1382921783872" ignored="false" />
+    <file path="/new.html.haml" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1382922376031" ignored="false" />
     <file path="/votes_controller.rb" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1382313344694" ignored="false" />
     <file path="/application.html.haml" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1379279554593" ignored="false" />
     <file path="/application.html.erb" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1379280218968" ignored="false" />
-    <file path="/votes.css.scss" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1382921800135" ignored="false" />
+    <file path="/votes.css.scss" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1382922388676" ignored="false" />
     <file path="/20130902231700_create_players.rb" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1379282480427" ignored="false" />
     <file path="/players_controller.rb" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1382305866547" ignored="false" />
     <file path="/20130915205526_create_votes.rb" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1379289516329" ignored="false" />
@@ -110,7 +110,7 @@
           <file leaf-file-name="new.html.haml" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/views/votes/new.html.haml">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="48" column="11" selection-start="1351" selection-end="1351" vertical-scroll-proportion="0.64748204">
+                <state line="43" column="11" selection-start="1187" selection-end="1187" vertical-scroll-proportion="0.51258993">
                   <folding />
                 </state>
               </provider>
@@ -119,7 +119,7 @@
           <file leaf-file-name="votes.js.coffee" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/assets/javascripts/votes.js.coffee">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="7" column="21" selection-start="178" selection-end="178" vertical-scroll-proportion="0.0">
+                <state line="4" column="24" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -164,7 +164,7 @@
           <file leaf-file-name="votes_controller.rb" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/controllers/votes_controller.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="6" column="39" selection-start="245" selection-end="245" vertical-scroll-proportion="0.0">
+                <state line="87" column="4" selection-start="2130" selection-end="2130" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -177,7 +177,7 @@
           <file leaf-file-name="votes.css.scss" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/votes.css.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="39" column="28" selection-start="605" selection-end="605" vertical-scroll-proportion="0.9505766">
+                <state line="33" column="35" selection-start="534" selection-end="534" vertical-scroll-proportion="0.6046128">
                   <folding />
                 </state>
               </provider>
@@ -208,8 +208,8 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/submissions.css.scss" />
         <option value="$PROJECT_DIR$/app/views/submissions/index.html.erb" />
         <option value="$PROJECT_DIR$/app/models/player.rb" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/votes.js.coffee" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/votes.css.scss" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/votes.js.coffee" />
         <option value="$PROJECT_DIR$/app/views/votes/new.html.haml" />
       </list>
     </option>
@@ -947,13 +947,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/votes_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="39" selection-start="245" selection-end="245" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/submissions.css.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="16" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0">
@@ -996,9 +989,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/votes.js.coffee">
+    <entry file="file://$PROJECT_DIR$/app/controllers/votes_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="21" selection-start="178" selection-end="178" vertical-scroll-proportion="0.0">
+        <state line="87" column="4" selection-start="2130" selection-end="2130" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1010,9 +1003,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/votes.js.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="24" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/votes/new.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="11" selection-start="1351" selection-end="1351" vertical-scroll-proportion="0.64748204">
+        <state line="43" column="11" selection-start="1187" selection-end="1187" vertical-scroll-proportion="0.51258993">
           <folding />
         </state>
       </provider>

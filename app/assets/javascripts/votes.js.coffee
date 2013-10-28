@@ -2,6 +2,7 @@ $(document).ready ->
   rows = [
     $('#points-text-1'),
     $('#points-text-2'),
+    $('#points-text-2-fb'),
     $('#points-text-3'),
     $('#points-text-4'),
     $('#points-text-5'),

@@ -8,10 +8,18 @@
   #points-text-2
     .row
       .col-xs-12
-        %h3
+        %h4
           = image_tag('super_mario_8-bit_star.jpg')
           = @player.score.values.sum
           pts
+  #points-text-2-fb
+    .row
+      .col-xs-12
+        %h4
+          = image_tag(@player.facebook_image)
+          = @player.name
+          = image_tag('super_mario_8-bit_star.jpg')
+          = @player.score.values.sum
   #points-text-3
     .row
       .col-xs-12
@@ -23,7 +31,7 @@
   #points-text-4
     .row
       .col-xs-12
-        %h3
+        %h4
           = image_tag('super_mario_8-bit_star.jpg')
           = @player.score[:votes_cast]
           = image_tag('Mario-Mushroom-Pattern.jpg')
@@ -33,7 +41,7 @@
   #points-text-5
     .row
       .col-xs-12
-        %h3
+        %h4
           = image_tag('super_mario_8-bit_star.jpg')
           = @player.score[:votes_cast]
           votes
