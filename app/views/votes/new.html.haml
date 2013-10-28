@@ -1,9 +1,49 @@
-.row
-  .col-xs-12
-    .points-text
-      %h3
-        = image_tag('http://i5.photobucket.com/albums/y160/HostileFire/Blog/super_mario_8-bit_star.jpg')
-        = @player.score
+#points-text-wrapper
+  #points-text-1
+    .row
+      .col-xs-12
+        %h3
+          = image_tag('super_mario_8-bit_star.jpg')
+          = @player.score.values.sum
+  #points-text-2
+    .row
+      .col-xs-12
+        %h3
+          = image_tag('super_mario_8-bit_star.jpg')
+          = @player.score.values.sum
+          pts
+  #points-text-3
+    .row
+      .col-xs-12
+        %h3
+          = image_tag('super_mario_8-bit_star.jpg')
+          = @player.score[:votes_cast] + @player.score[:submissions]
+          = image_tag('Mario-Mushroom-Pattern.jpg')
+          = @player.score[:votes_received]
+  #points-text-4
+    .row
+      .col-xs-12
+        %h3
+          = image_tag('super_mario_8-bit_star.jpg')
+          = @player.score[:votes_cast]
+          = image_tag('Mario-Mushroom-Pattern.jpg')
+          = @player.score[:submissions]
+          = image_tag('retro_coin.png')
+          = @player.score[:votes_received]
+  #points-text-5
+    .row
+      .col-xs-12
+        %h3
+          = image_tag('super_mario_8-bit_star.jpg')
+          = @player.score[:votes_cast]
+          votes
+          = image_tag('Mario-Mushroom-Pattern.jpg')
+          = @player.score[:submissions] / 10
+          submissions
+          = image_tag('retro_coin.png')
+          = @player.score[:votes_received]
+          upvotes
+
 - if @prev_submission.present?
   .row.alert.alert-success
     .col-xs-3
@@ -33,3 +73,4 @@
     .action-btn.col-xs-6
       %button#no{type: 'submit', 'data-role' => 'button', 'data-icon' => 'delete', name: 'vote[positive]', value: 'false'}
         Stinky
+

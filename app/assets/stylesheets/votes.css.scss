@@ -17,10 +17,21 @@
 .score-text {
   padding-top: 10px;
 }
-.points-text {
+#points-text-wrapper {
+
   text-align: right;
+  margin-bottom: 10px;
+  h3 {
+    margin: 0px;
+  }
   img {
     width: 18px;
     height: 18px;
   }
+
+  #points-text-2, #points-text-3,
+  #points-text-4, #points-text-5 {
+    display: none;
+  }
+
 }

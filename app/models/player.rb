@@ -16,12 +16,12 @@ class Player < ActiveRecord::Base
 
   def score
     # This scoring algorithm is in flux. We calculate from scratch for everything for now.
+    ret = {}
+    ret[:submissions] = self.submissions.count * BASE_POINTS_PER_SUBMISSION
+    ret[:votes_cast] = self.votes.count * POINTS_PER_VOTE_CAST
+    ret[:votes_received] = self.submissions.collect(&:votes).flatten.collect(&:score).sum
 
-    submission_points = self.submissions.count * BASE_POINTS_PER_SUBMISSION
-    cast_vote_points = self.votes.count * POINTS_PER_VOTE_CAST
-    vote_points = self.submissions.collect(&:votes).flatten.collect(&:score).sum
-
-    submission_points + cast_vote_points + vote_points
+    ret
   end
 
 
