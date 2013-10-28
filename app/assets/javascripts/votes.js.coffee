@@ -4,7 +4,8 @@ $(document).ready ->
     $('#points-text-2'),
     $('#points-text-3'),
     $('#points-text-4'),
-    $('#points-text-5')
+    $('#points-text-5'),
+    $('#points-text-6')
   ]
   rowIndex = 0;
   $('#points-text-wrapper').click ->

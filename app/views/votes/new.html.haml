@@ -43,6 +43,14 @@
           = image_tag('retro_coin.png')
           = @player.score[:votes_received]
           upvotes
+  #points-text-6
+    .row
+      .col-xs-12
+        %h4
+          = @player.score[:submissions] / 10
+          ! / 10 submissions to next level
+        .progress{style: "width: 30%"}
+          .progress-bar{style: "width: #{@player.score[:submissions] % 100}%"}
 
 - if @prev_submission.present?
   .row.alert.alert-success
