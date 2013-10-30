@@ -53,7 +53,7 @@
     <file path="/topics_controller.rb" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1382310022228" ignored="false" />
     <file path="/topic.rb" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1381710920390" ignored="false" />
     <file path="/StinkyDaVinciActivity.java" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1382302687623" ignored="false" />
-    <file path="/sessions_controller.rb" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1383114377137" ignored="false" />
+    <file path="/sessions_controller.rb" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1383114593459" ignored="false" />
     <file path="/application_controller.rb" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1382309267848" ignored="false" />
     <file path="/20131020222529_create_tokens_table.rb" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1382308017955" ignored="false" />
     <file path="/token.rb" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1382309384495" ignored="false" />
@@ -195,7 +195,7 @@
           <file leaf-file-name="sessions_controller.rb" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/controllers/sessions_controller.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="10" column="30" selection-start="384" selection-end="384" vertical-scroll-proportion="0.23961662">
+                <state line="17" column="10" selection-start="615" selection-end="615" vertical-scroll-proportion="0.40734825">
                   <folding />
                 </state>
               </provider>
@@ -1052,7 +1052,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/sessions_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="30" selection-start="384" selection-end="384" vertical-scroll-proportion="0.23961662">
+        <state line="17" column="10" selection-start="615" selection-end="615" vertical-scroll-proportion="0.40734825">
           <folding />
         </state>
       </provider>
