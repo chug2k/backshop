@@ -5,9 +5,10 @@ class Player < ActiveRecord::Base
   has_many :votes
 
   def self.initialize_from_facebook(fb_user)
-    player = Player.new
-    player.name = fb_user.name
-    player.fbuid = fb_user.raw_attributes[:id]
+    Player.create(
+        name: fb_user.name,
+        fbuid: fb_user.raw_attributes[:id]
+    )
   end
 
 
