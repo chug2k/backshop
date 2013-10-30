@@ -60,3 +60,4 @@ gem 'rails_12factor', group: :production
 
 
 gem 'fb_graph'
+gem 'newrelic_rpm'
