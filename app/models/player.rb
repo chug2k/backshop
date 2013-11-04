@@ -20,7 +20,7 @@ class Player < ActiveRecord::Base
     ret = {}
     ret[:submissions] = self.submissions.count * BASE_POINTS_PER_SUBMISSION
     ret[:votes_cast] = self.votes.count * POINTS_PER_VOTE_CAST
-    ret[:votes_received] = self.submissions.collect(&:votes).flatten.collect(&:score).sum
+    ret[:votes_received] = self.submissions.collect(&:score).sum
 
     ret
   end

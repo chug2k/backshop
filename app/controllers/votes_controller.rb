@@ -88,7 +88,6 @@ class VotesController < ApplicationController
     @player = Player.find_by_fbuid(params[:fbuid])
   end
 
-  # TODO(Charles): Uh, I don't think this works.
   def set_submission
     already_voted_submission_ids = Vote.where(player_id: @player.id).collect(&:submission_id)
     if already_voted_submission_ids.empty?

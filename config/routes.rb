@@ -11,6 +11,8 @@ Backshop::Application.routes.draw do
 
   resources :votes
 
+  get 'leaderboards' => 'leaderboards#index', as: :leaderboards
+
   post '/login' => 'sessions#create'
 
   # The priority is based upon order of creation: first created -> highest priority.

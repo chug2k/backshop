@@ -1,0 +1,19 @@
+table class='table table-responsive table-striped'
+  th Rank
+  th Name
+  th Score
+  / This is awful. Use a smart partial here.
+  - submissions.each_with_index do |submission, index|
+      tr
+        td = (index+1).ordinalize
+        td
+          span
+            a href="#popup_sub_#{submission.id}" data-rel="popup" data-position-to="window" data-transition="fade"
+              = image_tag(submission.image(:thumb))
+              = submission.topic.name
+        td = submission.score
+
+        div data-role="popup" id="popup_sub_#{submission.id}" data-overlay-theme="a" data-theme="d" data-corners="false"
+          a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right"
+            | Close
+          = image_tag(submission.image)

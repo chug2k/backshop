@@ -8,6 +8,9 @@ class Submission < ActiveRecord::Base
   validates_presence_of :topic, :player, :image
   default_scope order('created_at DESC')
 
+  def score
+    self.votes.collect(&:score).sum
+  end
 
   def upvotes
     self.votes.where(positive: true)
