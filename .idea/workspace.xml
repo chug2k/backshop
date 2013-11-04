@@ -9,7 +9,7 @@
     <file path="/seeds.rb" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1381708665644" ignored="false" />
     <file path="/Gemfile" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1383522850455" ignored="false" />
     <file path="/application.rb" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1378164511923" ignored="false" />
-    <file path="/a.dummy" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1382313293674" ignored="false" />
+    <file path="/a.dummy" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1383527606186" ignored="false" />
     <file path="/*.regexp" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1378164616669" ignored="false" />
     <file path="/database.yml" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1378185516923" ignored="false" />
     <file path="/submissions_controller.rb" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1382309985029" ignored="false" />
@@ -24,7 +24,7 @@
     <file path="$PROJECT_DIR$/../../../../Bloc/first-app/config/database.yml" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1378185516923" ignored="false" />
     <file path="/20130902231837_create_submissions.rb" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1379278650439" ignored="false" />
     <file path="/vote.rb" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1382313358670" ignored="false" />
-    <file path="/new.html.haml" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1383527033928" ignored="false" />
+    <file path="/new.html.haml" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1383527499971" ignored="false" />
     <file path="/votes_controller.rb" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1382313344694" ignored="false" />
     <file path="/application.html.haml" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1379279554593" ignored="false" />
     <file path="/application.html.erb" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1379280218968" ignored="false" />
@@ -59,11 +59,11 @@
     <file path="/token.rb" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1382309384495" ignored="false" />
     <file path="/submissions.css.scss" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1382908217120" ignored="false" />
     <file path="/votes.js.coffee" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1382921297408" ignored="false" />
-    <file path="/production.rb" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1383116615067" ignored="false" />
+    <file path="/production.rb" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1383527622179" ignored="false" />
     <file path="/leaderboard_controller.rb" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1383525835840" ignored="false" />
-    <file path="/index.html.slim" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1383526045678" ignored="false" />
-    <file path="/leaderboards.css.scss" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1383526285221" ignored="false" />
-    <file path="/leaderboards_controller.rb" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1383525217605" ignored="false" />
+    <file path="/index.html.slim" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1383527679851" ignored="false" />
+    <file path="/leaderboards.css.scss" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1383527840870" ignored="false" />
+    <file path="/leaderboards_controller.rb" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1383527469046" ignored="false" />
     <file path="/_players_leaderboard.html.slim" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1383526150461" ignored="false" />
     <file path="/_submissions_leaderboard.html.slim" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1383526718207" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -90,16 +90,16 @@
           <file leaf-file-name="new.html.haml" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/views/votes/new.html.haml">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="4" column="24" selection-start="101" selection-end="101" vertical-scroll-proportion="-2.5">
+                <state line="91" column="13" selection-start="2660" selection-end="2660" vertical-scroll-proportion="-16.208334">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="index.html.slim" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="index.html.slim" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/views/leaderboards/index.html.slim">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="3" column="77" selection-start="248" selection-end="248" vertical-scroll-proportion="-0.56962025">
+                <state line="4" column="80" selection-start="311" selection-end="311" vertical-scroll-proportion="0.23255815">
                   <folding />
                 </state>
               </provider>
@@ -144,7 +144,7 @@
           <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Gemfile">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="48" column="16" selection-start="1236" selection-end="1236" vertical-scroll-proportion="0.0">
+                <state line="19" column="6" selection-start="417" selection-end="417" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -168,10 +168,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="votes_controller.rb" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="votes_controller.rb" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/controllers/votes_controller.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="91" column="93" selection-start="2298" selection-end="2298" vertical-scroll-proportion="0.48096886">
+                <state line="91" column="93" selection-start="2298" selection-end="2298" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -211,7 +211,7 @@
           <file leaf-file-name="production.rb" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="18" column="16" selection-start="794" selection-end="794" vertical-scroll-proportion="0.0">
+                <state line="52" column="7" selection-start="2089" selection-end="2089" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -220,16 +220,16 @@
           <file leaf-file-name="leaderboards_controller.rb" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/controllers/leaderboards_controller.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="8" column="23" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0">
+                <state line="5" column="63" selection-start="266" selection-end="266" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="leaderboards.css.scss" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="leaderboards.css.scss" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/leaderboards.css.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="7" column="16" selection-start="134" selection-end="134" vertical-scroll-proportion="0.15373352">
+                <state line="13" column="31" selection-start="229" selection-end="229" vertical-scroll-proportion="0.44117647">
                   <folding />
                 </state>
               </provider>
@@ -256,22 +256,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/config/environments/production.rb" />
         <option value="$PROJECT_DIR$/app/controllers/votes_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/players_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/leaderboard_controller.rb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css.scss" />
         <option value="$PROJECT_DIR$/app/views/leaderboards/photos.html.slim" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/models/submission.rb" />
         <option value="$PROJECT_DIR$/app/models/player.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/leaderboards_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/leaderboards/_players_leaderboard.html.slim" />
+        <option value="$PROJECT_DIR$/app/views/leaderboards/_submissions_leaderboard.html.slim" />
+        <option value="$PROJECT_DIR$/app/controllers/leaderboards_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/votes/new.html.haml" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/config/environments/production.rb" />
         <option value="$PROJECT_DIR$/app/views/leaderboards/index.html.slim" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/leaderboards.css.scss" />
-        <option value="$PROJECT_DIR$/app/views/leaderboards/_submissions_leaderboard.html.slim" />
-        <option value="$PROJECT_DIR$/app/views/votes/new.html.haml" />
       </list>
     </option>
   </component>
@@ -904,7 +904,7 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32833788" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32833788" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2496361" sideWeight="0.6710145" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23992443" sideWeight="0.67166215" order="0" side_tool="false" content_ui="combo" />
@@ -980,7 +980,15 @@
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/app/views/votes/new.html.haml</url>
+          <line>81</line>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
@@ -993,13 +1001,6 @@
     <entry file="file://$PROJECT_DIR$/app/models/topic.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="8" selection-start="66" selection-end="66" vertical-scroll-proportion="0.06955178">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="16" selection-start="794" selection-end="794" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1025,41 +1026,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="16" selection-start="1236" selection-end="1236" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/leaderboards_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="23" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/leaderboards/_players_leaderboard.html.slim">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="20" selection-start="336" selection-end="336" vertical-scroll-proportion="-2.278481">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/leaderboards.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="16" selection-start="134" selection-end="134" vertical-scroll-proportion="0.15373352">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/leaderboards/index.html.slim">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="77" selection-start="248" selection-end="248" vertical-scroll-proportion="-0.56962025">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/submission.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="12" selection-start="131" selection-end="137" vertical-scroll-proportion="0.0">
@@ -1074,6 +1040,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/votes_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="91" column="93" selection-start="2298" selection-end="2298" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/votes/new.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="91" column="13" selection-start="2660" selection-end="2660" vertical-scroll-proportion="-16.208334">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="6" selection-start="417" selection-end="417" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/leaderboards_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="63" selection-start="266" selection-end="266" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/leaderboards/_players_leaderboard.html.slim">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="20" selection-start="336" selection-end="336" vertical-scroll-proportion="-2.278481">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/leaderboards/_submissions_leaderboard.html.slim">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="39" selection-start="495" selection-end="800" vertical-scroll-proportion="-11.25">
@@ -1081,16 +1082,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/votes/new.html.haml">
+    <entry file="file://$PROJECT_DIR$/app/views/leaderboards/index.html.slim">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="24" selection-start="101" selection-end="101" vertical-scroll-proportion="-2.5">
+        <state line="4" column="80" selection-start="311" selection-end="311" vertical-scroll-proportion="0.23255815">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/votes_controller.rb">
+    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="93" selection-start="2298" selection-end="2298" vertical-scroll-proportion="0.48096886">
+        <state line="52" column="7" selection-start="2089" selection-end="2089" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/leaderboards.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="31" selection-start="229" selection-end="229" vertical-scroll-proportion="0.44117647">
           <folding />
         </state>
       </provider>

@@ -9,5 +9,10 @@
   }
   td {
     vertical-align: middle;
+    a {
+      &:hover {
+        background-color: white;
+      }
+    }
   }
 }

@@ -1,7 +1,8 @@
 #leaderboard-wrapper
   div data-role="controlgroup" data-type="horizontal" class="nav-buttons"
-    a href="#{leaderboards_path}" data-theme="b" data-role="button" Players
-    a href="#{leaderboards_path({type: 'photos'})}" data-role="button" Photos
+    a href="#{leaderboards_path}" data-role="button" Peeps
+    a href="#{leaderboards_path({type: 'photos'})}" data-role="button" Sweet
+    a href="#{leaderboards_path({type: 'badphotos'})}" data-role="button" Stinky
   .row
     .col-md-12
       - if @players.present?

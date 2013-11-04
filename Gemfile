@@ -20,9 +20,7 @@ gem 'coffee-rails', '~> 4.0.0'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
-# Use jquery as the JavaScript library
 gem 'jquery-rails'
-# Use jquery mobile as the JavaScript library
 gem 'jquery_mobile_rails'
 
 gem 'haml-rails'
