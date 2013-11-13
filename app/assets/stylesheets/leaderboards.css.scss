@@ -9,10 +9,8 @@
   }
   td {
     vertical-align: middle;
-    a {
-      &:hover {
-        background-color: white;
-      }
-    }
+  }
+  #done-message {
+    text-align: center;
   }
 }

@@ -18,7 +18,7 @@ class VotesController < ApplicationController
   def new
     @vote = Vote.new
     if @submission.nil?
-      render text: 'dude you judged everything already good job go submit some shiot'
+      render 'done_voting'
     end
     if params[:prev_vote].present?
       @prev_vote = Vote.find(params[:prev_vote])

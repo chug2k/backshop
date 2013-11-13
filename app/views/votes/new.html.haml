@@ -75,7 +75,7 @@
         received
         = @prev_vote.score
         points for your
-        vote! You got 1 point for just for voting.
+        vote! You got 1 point just for voting. GO YOU.
 
 .row
   .col-xs-12
@@ -88,9 +88,9 @@
     = hidden_field_tag 'fbuid', @player.fbuid
     = hidden_field_tag 'vote[submission_id]', @submission.id
     .action-btn.col-xs-6
-      %button#yes{type: 'submit', 'data-role' => 'button', 'data-icon' => 'check', name: 'vote[positive]', value: 'true'}
+      %button#yes{type: 'submit', 'data-role' => 'button', 'data-icon' => 'check', name: 'vote[positive]', value: 'true', 'data-theme' => 'g'}
         Sweet
     .action-btn.col-xs-6
-      %button#no{type: 'submit', 'data-role' => 'button', 'data-icon' => 'delete', name: 'vote[positive]', value: 'false'}
+      %button#no{type: 'submit', 'data-role' => 'button', 'data-icon' => 'delete', name: 'vote[positive]', value: 'false', 'data-theme' => 'f'}
         Stinky
 
