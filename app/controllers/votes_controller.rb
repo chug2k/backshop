@@ -18,12 +18,16 @@ class VotesController < ApplicationController
   def new
     @vote = Vote.new
     if @submission.nil?
-      render 'done_voting'
+      return render 'done_voting'
     end
     if params[:prev_vote].present?
       @prev_vote = Vote.find(params[:prev_vote])
       @prev_submission = @prev_vote.submission
     end
+    @votes_with_comments =
+        @submission.votes.select{|v| v.comment.present?}
+
+    @votes_with_comments = Vote.all
   end
 
   # GET /votes/1/edit
@@ -100,6 +104,6 @@ class VotesController < ApplicationController
 
   def vote_params
     params.require(:fbuid)
-    params.require(:vote).permit(:submission_id, :positive, :player_id)
+    params.require(:vote).permit(:submission_id, :positive, :player_id, :comment)
   end
 end

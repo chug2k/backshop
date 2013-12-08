@@ -40,5 +40,24 @@
       display: inline-block;
     }
   }
+}
 
+
+.comments-wrapper {
+  img {
+    height: 30px;
+    width: 30px;
+  }
+  .comment {
+    font-weight: bold;
+  }
+  .comment-wrapper {
+    margin-bottom: 10px;
+  }
+}
+.ui-icon-vote-stinky {
+  background-image: image-url("stinky_btn.png") !important;
+}
+.ui-icon-vote-sweet {
+  background-image: image-url("sweet_btn.png") !important;
 }

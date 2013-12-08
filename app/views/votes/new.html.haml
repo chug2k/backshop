@@ -83,14 +83,35 @@
       .word-label
         = @submission.topic.name
       %img.img-responsive{src: @submission.image}
-.row
-  = form_tag votes_path(@vote) do
-    = hidden_field_tag 'fbuid', @player.fbuid
-    = hidden_field_tag 'vote[submission_id]', @submission.id
+
+= form_tag votes_path(@vote) do
+  = hidden_field_tag 'fbuid', @player.fbuid
+  = hidden_field_tag 'vote[submission_id]', @submission.id
+  .row
+    .col-xs-12
+      = text_field_tag 'vote[comment]', nil, placeholder: 'got more to say than just sweet or stinky? (optional)'
+  .row
     .action-btn.col-xs-6
-      %button#yes{type: 'submit', 'data-role' => 'button', 'data-icon' => 'check', name: 'vote[positive]', value: 'true', 'data-theme' => 'g'}
+      %button#yes{type: 'submit', 'data-role' => 'button', 'data-icon' => 'vote-stinky', name: 'vote[positive]', value: 'true', 'data-theme' => 'g'}
         Sweet
     .action-btn.col-xs-6
-      %button#no{type: 'submit', 'data-role' => 'button', 'data-icon' => 'delete', name: 'vote[positive]', value: 'false', 'data-theme' => 'f'}
+      %button#no{type: 'submit', 'data-role' => 'button', 'data-icon' => 'vote-sweet', name: 'vote[positive]', value: 'false', 'data-theme' => 'f'}
         Stinky
+.row.comments-wrapper
+  .col-xs-12
+    %h3
+      Chatter
+    - if @votes_with_comments.blank?
+      %h5 Whoa! No jibba-jabba about this submission yet.
+    - else
+      - @votes_with_comments.each do |vote|
+        .row.comment-wrapper
+          .col-xs-12
+            = image_tag(vote.player.try(:facebook_image))
+            = vote.player.name
+            = get_slang_for(:said) + ': '
+            %span.comment
+              = vote.comment
+
+
 
