@@ -90,10 +90,10 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="new.html.haml" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="new.html.haml" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/views/votes/new.html.haml">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="94" column="86" selection-start="2742" selection-end="2748" vertical-scroll-proportion="0.70068026">
+                <state line="91" column="74" selection-start="2590" selection-end="2590" vertical-scroll-proportion="0.5986394">
                   <folding />
                 </state>
               </provider>
@@ -139,7 +139,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="votes_controller.rb" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="votes_controller.rb" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/controllers/votes_controller.rb">
               <provider selected="true" editor-type-id="text-editor">
                 <state line="27" column="56" selection-start="682" selection-end="682" vertical-scroll-proportion="0.545082">
@@ -173,9 +173,9 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css.scss" />
         <option value="$PROJECT_DIR$/db/migrate/20131208221640_add_comment_to_votes.rb" />
         <option value="$PROJECT_DIR$/app/helpers/application_helper.rb" />
-        <option value="$PROJECT_DIR$/app/views/votes/new.html.haml" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/votes.css.scss" />
         <option value="$PROJECT_DIR$/app/controllers/votes_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/votes/new.html.haml" />
       </list>
     </option>
   </component>
@@ -1003,13 +1003,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/votes/new.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="86" selection-start="2742" selection-end="2748" vertical-scroll-proportion="0.70068026">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/votes.css.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="58" column="25" selection-start="821" selection-end="881" vertical-scroll-proportion="0.0">
@@ -1020,6 +1013,13 @@
     <entry file="file://$PROJECT_DIR$/app/controllers/votes_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="56" selection-start="682" selection-end="682" vertical-scroll-proportion="0.545082">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/votes/new.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="91" column="74" selection-start="2590" selection-end="2590" vertical-scroll-proportion="0.5986394">
           <folding />
         </state>
       </provider>
