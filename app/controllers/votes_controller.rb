@@ -26,8 +26,6 @@ class VotesController < ApplicationController
     end
     @votes_with_comments =
         @submission.votes.select{|v| v.comment.present?}
-
-    @votes_with_comments = Vote.all
   end
 
   # GET /votes/1/edit
