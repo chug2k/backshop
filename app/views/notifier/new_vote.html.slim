@@ -1,0 +1,18 @@
+html
+  head
+  body
+    table
+      tr
+        td = image_tag(@vote.player.try(:facebook_image), alt: '@vote.player.name')
+        td
+          h4 = "#{@vote.player.name} had this to say about your submission for #{@vote.submission.topic.name}:"
+      tr
+        td &nbsp;
+        td
+          h2
+            = @vote.comment
+      tr
+        td &nbsp;
+        td = image_tag(@vote.submission.image, style: 'width: 100px;', alt: 'Image submission')
+
+

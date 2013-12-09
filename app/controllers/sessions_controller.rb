@@ -5,6 +5,10 @@ class SessionsController < ApplicationController
       fb_user = FbGraph::User.me(token).fetch
       fbuid = fb_user.raw_attributes[:id]
       player = Player.find_by_fbuid(fbuid) || Player.initialize_from_facebook(fb_user)
+      if player.email.blank?
+        player.email = fb_user.raw_attributes[:email]
+        player.save!
+      end
       Token.create(player: player, token: token)
       @current_player = player
     end

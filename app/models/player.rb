@@ -7,7 +7,8 @@ class Player < ActiveRecord::Base
   def self.initialize_from_facebook(fb_user)
     Player.create(
         name: fb_user.name,
-        fbuid: fb_user.raw_attributes[:id]
+        fbuid: fb_user.raw_attributes[:id],
+        email: fb_user.raw_attributes[:email]
     )
   end
 
