@@ -69,7 +69,7 @@
     <file path="/done_voting.html.haml" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1384335185260" ignored="false" />
     <file path="/20131208221640_add_comment_to_votes.rb" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1386541006563" ignored="false" />
     <file path="/application_helper.rb" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1386545200793" ignored="false" />
-    <file path="/notifier.rb" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1386550260158" ignored="false" />
+    <file path="/notifier.rb" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1386550511298" ignored="false" />
     <file path="/environment.rb" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1386549408661" ignored="false" />
     <file path="/new_vote.html.slim" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1386550142936" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -141,7 +141,7 @@
           <file leaf-file-name="notifier.rb" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/mailers/notifier.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="7" column="0" selection-start="290" selection-end="290" vertical-scroll-proportion="0.23755656">
+                <state line="10" column="5" selection-start="439" selection-end="439" vertical-scroll-proportion="0.33936653">
                   <folding />
                 </state>
               </provider>
@@ -1061,7 +1061,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/mailers/notifier.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="290" selection-end="290" vertical-scroll-proportion="0.23755656">
+        <state line="10" column="5" selection-start="439" selection-end="439" vertical-scroll-proportion="0.33936653">
           <folding />
         </state>
       </provider>
