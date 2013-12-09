@@ -14,3 +14,11 @@ $(document).ready ->
     rowIndex = (rowIndex + 1) % rows.length
     $nextRow = rows[rowIndex]
     $prevRow.fadeOut('fast', () -> $nextRow.fadeIn())
+
+
+  $('form').bind("keyup keypress", (e) ->
+    code = e.keyCode || e.which
+    if code == 13
+      e.preventDefault
+      return false
+  )

@@ -90,10 +90,19 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="new.html.haml" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="new.html.haml" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/views/votes/new.html.haml">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="91" column="74" selection-start="2590" selection-end="2590" vertical-scroll-proportion="0.5986394">
+                <state line="91" column="74" selection-start="2590" selection-end="2590" vertical-scroll-proportion="-8.5">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="votes.js.coffee" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/assets/javascripts/votes.js.coffee">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="18" column="9" selection-start="435" selection-end="435" vertical-scroll-proportion="0.56485355">
                   <folding />
                 </state>
               </provider>
@@ -160,7 +169,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/models/submission.rb" />
         <option value="$PROJECT_DIR$/app/models/player.rb" />
         <option value="$PROJECT_DIR$/app/views/leaderboards/_players_leaderboard.html.slim" />
         <option value="$PROJECT_DIR$/app/views/leaderboards/_submissions_leaderboard.html.slim" />
@@ -176,6 +184,7 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/votes.css.scss" />
         <option value="$PROJECT_DIR$/app/controllers/votes_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/votes/new.html.haml" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/votes.js.coffee" />
       </list>
     </option>
   </component>
@@ -912,13 +921,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="347" selection-end="347" vertical-scroll-proportion="0.24737631">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/leaderboards/_submissions_leaderboard.html.slim">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="39" selection-start="495" selection-end="800" vertical-scroll-proportion="0.39940828">
@@ -1019,7 +1021,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/votes/new.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="74" selection-start="2590" selection-end="2590" vertical-scroll-proportion="0.5986394">
+        <state line="91" column="74" selection-start="2590" selection-end="2590" vertical-scroll-proportion="-8.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/votes.js.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="9" selection-start="435" selection-end="435" vertical-scroll-proportion="0.56485355">
           <folding />
         </state>
       </provider>
