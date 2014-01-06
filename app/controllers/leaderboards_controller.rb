@@ -7,5 +7,7 @@ class LeaderboardsController < ApplicationController
     else
       @players = Player.all.sort_by { |x| -x.score.values.sum }
     end
+
+    @selected_tab = params[:type] || 'peeps'
   end
 end

@@ -1,8 +1,11 @@
 #leaderboard-wrapper
   div data-role="controlgroup" data-type="horizontal" class="nav-buttons"
-    a href="#{leaderboards_path}" data-role="button" Peeps
-    a href="#{leaderboards_path({type: 'photos'})}" data-role="button" Sweet
-    a href="#{leaderboards_path({type: 'badphotos'})}" data-role="button" Stinky
+    a href="#{leaderboards_path}" class="#{activate_button('peeps', @selected_tab)}" data-role="button"
+      | Peeps
+    a href="#{leaderboards_path({type: 'photos'})}" class="#{activate_button('photos', @selected_tab)}" data-role="button"
+      | Sweet
+    a href="#{leaderboards_path({type: 'badphotos'})}" class="#{activate_button('badphotos', @selected_tab)}" data-role="button"
+      | Stinky
   .row
     .col-md-12
       - if @players.present?
