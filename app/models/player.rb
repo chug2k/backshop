@@ -4,7 +4,7 @@ class Player < ActiveRecord::Base
   has_many :submissions
   has_many :votes
 
-  has_one :current_topic, class_name: 'Topic'
+  belongs_to :current_topic, class_name: 'Topic'
 
   after_create :assign_topic!
 
