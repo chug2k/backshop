@@ -6,7 +6,7 @@ class Player < ActiveRecord::Base
 
   has_one :current_topic, class_name: 'Topic'
 
-  after_create :assign_topic
+  after_create :assign_topic!
 
   def self.initialize_from_facebook(fb_user)
     Player.create(
@@ -31,7 +31,7 @@ class Player < ActiveRecord::Base
   end
 
 
-  def assign_topic
+  def assign_topic!
     self.current_topic = Topic.unseen_by_player(self).order('RANDOM()').first ||
         Topic.order('RANDOM()').first
     self.current_topic_updated_at = Time.now
@@ -40,8 +40,8 @@ class Player < ActiveRecord::Base
 
   def update_current_topic_if_needed
     if self.current_topic.nil? || self.current_topic_updated_at.nil? ||
-        self.current_topic.updated_at.day < Time.now.day
-      self.assign_topic
+        self.current_topic_updated_at.day < Time.now.day
+      self.assign_topic!
     end
   end
 
