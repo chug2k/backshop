@@ -17,6 +17,9 @@
       <tr>
         <td><%= submission.player.name %></td>
         <td><%= truncate(submission.topic.name) %></td>
+        <td>
+          <%= image_tag submission.image, style: 'width: 48px; height:48px' %>
+        </td>
         <td><%= link_to 'Show', submission %></td>
         <td><%= link_to 'Edit', edit_submission_path(submission) %></td>
         <td><%= link_to 'Destroy', submission, method: :delete, data: { confirm: 'Are you sure?' } %></td>
