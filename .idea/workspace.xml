@@ -50,7 +50,7 @@
     <file path="$PROJECT_DIR$/../../../../Bloc/bloccit/app/views/posts/show.html.erb" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1381464538257" ignored="false" />
     <file path="$PROJECT_DIR$/../../../../Bloc/bloccit/app/views/comments/_form.html.erb" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1381464538257" ignored="false" />
     <file path="/index.html.erb" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1395008134459" ignored="false" />
-    <file path="/topics_controller.rb" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1395009594904" ignored="false" />
+    <file path="/topics_controller.rb" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1395010230525" ignored="false" />
     <file path="/topic.rb" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1381710920390" ignored="false" />
     <file path="/StinkyDaVinciActivity.java" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1382302687623" ignored="false" />
     <file path="/sessions_controller.rb" changelist="6eef9faf-d9ac-4675-a205-492a7172a067" time="1386549088667" ignored="false" />
@@ -139,19 +139,19 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="topics_controller.rb" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="topics_controller.rb" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/controllers/topics_controller.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="25" column="23" selection-start="411" selection-end="411" vertical-scroll-proportion="0.0">
+                <state line="26" column="26" selection-start="465" selection-end="465" vertical-scroll-proportion="0.5760709">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="player.rb" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="player.rb" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/models/player.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="8" column="29" selection-start="185" selection-end="185" vertical-scroll-proportion="-0.107828654">
+                <state line="8" column="29" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -277,8 +277,8 @@
         <option value="$PROJECT_DIR$/app/views/submissions/index.html.erb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/db/migrate/20140316223743_add_current_topic_to_user.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/topics_controller.rb" />
         <option value="$PROJECT_DIR$/app/models/player.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/topics_controller.rb" />
       </list>
     </option>
   </component>
@@ -1098,16 +1098,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/topics_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/models/player.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="23" selection-start="411" selection-end="411" vertical-scroll-proportion="0.0">
+        <state line="8" column="29" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/player.rb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/topics_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="29" selection-start="185" selection-end="185" vertical-scroll-proportion="-0.107828654">
+        <state line="26" column="26" selection-start="465" selection-end="465" vertical-scroll-proportion="0.5760709">
           <folding />
         </state>
       </provider>

@@ -23,8 +23,8 @@ class TopicsController < ApplicationController
 
   # GET /topics/next
   def next
-    @player.update_current_topic_if_needed
-    render json: @player.current_topic
+    @current_player.update_current_topic_if_needed
+    render json: @current_player.current_topic
   end
 
   # POST /topics
