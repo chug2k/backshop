@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131209002613) do
+ActiveRecord::Schema.define(version: 20140316223743) do
 
   create_table "players", force: true do |t|
     t.string   "name"
@@ -19,6 +19,8 @@ ActiveRecord::Schema.define(version: 20131209002613) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.string   "email"
+    t.integer  "current_topic_id"
+    t.datetime "current_topic_updated_at"
   end
 
   create_table "submissions", force: true do |t|

@@ -23,10 +23,9 @@ class TopicsController < ApplicationController
 
   # GET /topics/next
   def next
-    topic = Topic.unseen_by_player(@current_player).order('RANDOM()').first ||
-        Topic.order('RANDOM()').first
-
-    render json: topic
+      @player.update_current_topic_if_needed
+      render json: @player.current_topic
+    end
   end
 
   # POST /topics
