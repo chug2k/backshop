@@ -7,6 +7,7 @@ class Submission < ActiveRecord::Base
 
   validates_presence_of :topic, :player, :image
   default_scope order('created_at DESC')
+  after_create :update_player_topic
 
   def score
     self.votes.collect(&:score).sum
@@ -18,6 +19,12 @@ class Submission < ActiveRecord::Base
 
   def downvotes
     self.votes.where(positive: false)
+  end
+
+  private
+
+  def update_player_topic
+    self.player.assign_topic!
   end
 
 end
