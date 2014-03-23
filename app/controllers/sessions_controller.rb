@@ -18,7 +18,8 @@ class SessionsController < ApplicationController
       format.json {
           render json: {
               score: @current_player.score.values.sum,
-              name: @current_player.name
+              name: @current_player.name,
+              unseen_count: @current_player.unseen_count
           }
       }
     end

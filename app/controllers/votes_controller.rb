@@ -91,13 +91,7 @@ class VotesController < ApplicationController
   end
 
   def set_submission
-    already_voted_submission_ids = Vote.where(player_id: @player.id).collect(&:submission_id)
-    if already_voted_submission_ids.empty?
-      @submission = Submission.order('random()').first
-    else
-      new_submissions = Submission.where('id NOT IN (?)', already_voted_submission_ids)
-      @submission = new_submissions.order('random()').first
-    end
+    @submission = @player.unseen_submissions.first
   end
 
   def vote_params

@@ -49,4 +49,19 @@ class Player < ActiveRecord::Base
   def facebook_image
     "http://graph.facebook.com/#{self.fbuid}/picture"
   end
+
+  def unseen_submissions
+    already_voted_submission_ids = Vote.where(player: self).collect(&:submission_id) || []
+    player_submission_ids = Submission.where(player: self)
+    submissions = already_voted_submission_ids.concat(player_submission_ids)
+    if submissions.any?
+      Submission.where('id NOT IN (?)', submissions)
+    else
+      Submission.first
+    end
+  end
+
+  def unseen_count
+    unseen_submissions.count
+  end
 end
